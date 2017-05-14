@@ -1,0 +1,37 @@
+body {
+    margin: 0;
+}
+
+#comment-area {
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+    white-space: nowrap;
+    position: relative;
+}
+
+.comment {
+    position: absolute;
+    font-size: 50px;
+    line-height: 1;
+    z-index: 2;
+    color: white;
+    text-shadow: -1px -1px #000, 0.3px -1px #000,    -1px 1px #000, 0.3px 1px #000;
+
+    animation-name: anime;
+    animation-timing-function: liner;
+    animation-duration: 6s;
+    animation-fill-mode: forwards;
+}
+
+/*
+@keyframes anime {
+    from{
+        transform: translate(1280px,300px);
+    }
+
+    to{
+        transform: translate(-1280px,300px);
+    }
+}
+*/
