@@ -17,21 +17,74 @@ body {
     z-index: 2;
     color: white;
     text-shadow: -1px -1px #000, 0.3px -1px #000,    -1px 1px #000, 0.3px 1px #000;
+}
 
-    animation-name: anime;
+.anime-1 {
+    animation-name: anime1;
     animation-timing-function: liner;
     animation-duration: 6s;
     animation-fill-mode: forwards;
 }
 
-/*
-@keyframes anime {
-    from{
-        transform: translate(1280px,300px);
-    }
-
-    to{
-        transform: translate(-1280px,300px);
-    }
+.anime-2 {
+    animation-name: anime2;
+    animation-timing-function: liner;
+    animation-duration: 6s;
+    animation-fill-mode: forwards;
 }
-*/
+
+.anime-3 {
+    animation-name: anime3;
+    animation-timing-function: liner;
+    animation-duration: 6s;
+    animation-fill-mode: forwards;
+}
+
+.anime-4 {
+    animation-name: anime4;
+    animation-timing-function: liner;
+    animation-duration: 6s;
+    animation-fill-mode: forwards;
+}
+.anime-5 {
+    animation-name: anime5;
+    animation-timing-function: liner;
+    animation-duration: 6s;
+    animation-fill-mode: forwards;
+}
+
+.anime-6 {
+    animation-name: anime6;
+    animation-timing-function: liner;
+    animation-duration: 6s;
+    animation-fill-mode: forwards;
+}
+
+.anime-7 {
+    animation-name: anime7;
+    animation-timing-function: liner;
+    animation-duration: 6s;
+    animation-fill-mode: forwards;
+}
+
+.anime-8 {
+    animation-name: anime8;
+    animation-timing-function: liner;
+    animation-duration: 6s;
+    animation-fill-mode: forwards;
+}
+
+.anime-9 {
+    animation-name: anime9;
+    animation-timing-function: liner;
+    animation-duration: 6s;
+    animation-fill-mode: forwards;
+}
+
+.anime-10 {
+    animation-name: anime10;
+    animation-timing-function: liner;
+    animation-duration: 6s;
+    animation-fill-mode: forwards;
+}
+
