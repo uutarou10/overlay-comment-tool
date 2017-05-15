@@ -9,6 +9,8 @@
   "author": "Kota Nonaka",
   "license": "ISC",
   "dependencies": {
-    "electron": "^1.6.7"
+    "electron": "^1.6.7",
+    "express": "^4.15.2",
+    "socket.io": "^2.0.1"
   }
 }
