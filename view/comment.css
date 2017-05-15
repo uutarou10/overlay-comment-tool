@@ -1,3 +1,26 @@
-body {
-    background-color: slategray;
+#comment-area {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    width: 100vw;
+    height: 100vh;
+}
+
+#comment {
+    border-radius: 5px;
+    font-size: 30px;
+    padding: 10px;
+    width: 50vw;
+    color: gray;
+}
+
+#comment-form button {
+    background-color: #0068B7;
+    border-radius: 5px;
+    font-size: 30px;
+    border: none;
+    color: white;
+    padding: 10px;
+    text-align: center;
 }
