@@ -8,10 +8,12 @@
     </head>
     <body>
         <div id=comment-area">
-            <form id="comment-form">
-                <input type="text" id="comment">
+            <form id="comment-form" onsubmit="submit()">
+                <input type="text" id="comment" name="comment">
                 <button type="submit">Send</button>
             </form>
         </div>
+    <script type="text/javascript" src="jquery-3.2.1.min.js">
+        <script type="text/javascript" src="comment.js"></script>
     </body>
 </html>
