@@ -1,9 +1,15 @@
-module.exprots = {
+module.exports = {
     init: () => {
         initializeStyle()
         window.setInterval(deleteOutOfDisplayElement, 1000)
+    },
+    add: (commentBody) => {
+        const commentElement = document.createElement('span')
+        const commentArea = document.getElementById('comment-area')
+        commentElement.setAttribute('class', 'comment anime-' + (Math.floor(Math.random() * 10) + 1))
+        commentElement.textContent = commentBody
+        commentArea.appendChild(commentElement)
     }
-
 }
 
 const initializeStyle = () => {
