@@ -10,6 +10,10 @@ app.get('/comment.css', (req,res) => {
     res.sendFile(path.join(__dirname,'view','comment.css'))
 })
 
+app.post('/api/comment/', (req,res) => {
+    //コメントを受け取った際の処理
+})
+
 exports.runServer = () => {
     http.listen(8080, () => {
         console.log('listening...')
