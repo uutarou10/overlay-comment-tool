@@ -1,3 +1,4 @@
+const hello = require('./hello.js')
 let commentArea = null
 
 document.addEventListener('DOMContentLoaded', () => {
