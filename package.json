@@ -5,7 +5,8 @@
   "main": "main.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build-main": "node_modules/watchify/bin/cmd.js mainview/script.js -o mainview/compiled/bundle.js -v"
+    "build-main": "node_modules/watchify/bin/cmd.js mainview/script.js -o mainview/compiled/bundle.js -v",
+    "build-web": "node_modules/watchify/bin/cmd.js webview/script.js -o webview/compiled/bundle.js -v"
   },
   "author": "Kota Nonaka",
   "license": "ISC",
@@ -13,6 +14,7 @@
     "browserify": "^14.3.0",
     "electron": "^1.6.7",
     "express": "^4.15.2",
+    "jquery": "^3.2.1",
     "watchify": "^3.9.0"
   }
 }
