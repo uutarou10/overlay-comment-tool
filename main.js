@@ -15,7 +15,7 @@ const createWindow = () => {
     })
 
     win.loadURL(url.format({
-        pathname : path.join(__dirname, 'view', 'main.html'),
+        pathname : path.join(__dirname, 'mainview', 'main.html'),
         protocol : 'file:',
         slashes : true
     }))

@@ -3,11 +3,11 @@ const http = require('http').Server(app)
 const path = require('path')
 
 app.get('/', (req,res) => {
-    res.sendFile(path.join(__dirname,'view','comment.html'))
+    res.sendFile(path.join(__dirname,'webview','comment.html'))
 })
 
 app.get('/comment.css', (req,res) => {
-    res.sendFile(path.join(__dirname,'view','comment.css'))
+    res.sendFile(path.join(__dirname,'webview','comment.css'))
 })
 
 app.post('/api/comment/', (req,res) => {
