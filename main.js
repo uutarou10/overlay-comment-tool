@@ -1,9 +1,11 @@
 const {app, BrowserWindow}  = require('electron')
 const path = require('path')
 const url = require('url')
+const ipc = require('electron').ipcMain
 const server = require('./server.js')
 
 let win
+module.exports = win
 
 const createWindow = () => {
     const screenSize = require('electron').screen.getPrimaryDisplay().size
