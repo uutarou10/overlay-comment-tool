@@ -5,7 +5,6 @@ const ipc = require('electron').ipcMain
 const server = require('./server.js')
 
 let win
-module.exports = win
 
 const createWindow = () => {
     const screenSize = require('electron').screen.getPrimaryDisplay().size
@@ -46,3 +45,6 @@ app.on('activate', () => {
     }
 })
 
+module.exports.add = (commentBody) => {
+    win.webContents.send('receive-message', commentBody)
+}

@@ -1,8 +1,16 @@
+const $ = require('jquery')
 $(() => {
-    $('#comment-area button').click(() => {
-        $.post('api/comment', {comment: $('#comment').val()})
-        .done(() => {
-            console.log('success!')
+    $('#comment-form').submit((event) => {
+        event.preventDefault();
+        
+        $.ajax({
+            url: './api/comment',
+            type: 'GET',
+            data: {
+                comment: $('#comment').val() 
+            },
+            timeout: 1000,
+            beforeSend: () => {$('#comment').val("")}
         })
     })
 })

@@ -6,7 +6,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build-main": "node_modules/watchify/bin/cmd.js mainview/script.js -o mainview/compiled/bundle.js -v",
-    "build-web": "node_modules/watchify/bin/cmd.js webview/script.js -o webview/compiled/bundle.js -v"
+    "build-web": "node_modules/watchify/bin/cmd.js webview/comment.js -o webview/compiled/bundle.js -v"
   },
   "author": "Kota Nonaka",
   "license": "ISC",
